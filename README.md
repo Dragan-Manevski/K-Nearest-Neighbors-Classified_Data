@@ -1,29 +1,29 @@
 ### --------------------------------------------------------------------------------------------------------
 # K-Nearest Neighbors - Classified_Data
 ### --------------------------------------------------------------------------------------------------------
-
 ### K-Nearest Neighbors:
 - an **algorithm**:
     - based on **Supervised Learning**
     - to solve **Regression and Classification problems**
     - where machines **learn with supervision**
     - **input data are labeled** and **expected output data is known**
-    - with key **objective**: 											- **to predict (classify) a categorical (qualitative) dependent output value (y)** based on **independent input variable(s) (x)** -> for **Classification problems**
- - **to predict a continuous (quantitative) numeric dependent output value (y)** based on **independent input variable(s) (x)** -> for **Regression problems**
+    - with key **objective**:
+    	- **to predict (classify) a categorical (qualitative) dependent output value (y)** based on **independent input variable(s) (x)** -> for **Classification problems**
+    	- **to predict a continuous (quantitative) numeric dependent output value (y)** based on **independent input variable(s) (x)** -> for **Regression problems**
     - by **identifying the position of nearest neighboring observations** we try:
-- **to predict to which category, the new observation belongs to**
-- **to predict...**
+    	- **to predict to which category, the new observation belongs to**
+    	- **to predict...**
 - **Regression and Classification analysis** are a **predictive modeling techniques**
 - **Prediction algorithm for new observations**:
- - **Calculate the distance** from new observation (x) to all observations -> distance between new observations and old observations
- - **Sort the observations** by increasing distance from new observation (x)
- - **Predict the majority label of the K (KNN classifier)** closest observations
+    - **Calculate the distance** from new observation (x) to all observations -> distance between new observations and old observations
+    - **Sort the observations** by increasing distance from new observation (x)
+    - **Predict the majority label of the K (KNN classifier)** closest observations
 - **K (KNN classifier) value**:
- - **defines how many observations** we are going to look at, that **are next to the new observation (x)**
- - **affects the class of a new observation** -> to which class it will be assigned to
+    - **defines how many observations** we are going to look at, that **are next to the new observation (x)**
+    - **affects the class of a new observation** -> to which class it will be assigned to
 - **Scale of the variables** matters:
-- variables on a large scale - have a larger effect on the distance between the observations and on the K (KNN classifier)
-- variables on a small scale - have a smaller effect on the distance between the observations and on the K (KNN classifier)
+    - variables on a large scale - have a larger effect on the distance between the observations and on the K (KNN classifier)
+    - variables on a small scale - have a smaller effect on the distance between the observations and on the K (KNN classifier)
 
 ### --------------------------------------------------------------------------------------------------------
 ### Project Objective: Predicting target class on classified data
