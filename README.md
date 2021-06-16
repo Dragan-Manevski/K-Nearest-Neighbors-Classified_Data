@@ -10,9 +10,9 @@
     - with key **objective**:
     	- **to predict (classify) a categorical (qualitative) dependent output value (y)** based on **independent input variable(s) (x)** -> for **Classification problems**
     	- **to predict a continuous (quantitative) numeric dependent output value (y)** based on **independent input variable(s) (x)** -> for **Regression problems**
-    - by **identifying the position of nearest neighboring observations** we try:
-    	- **to predict to which category, the new observation belongs to**
-    	- **to predict...**
+    - by **identifying the position of nearest neighboring observations**, we try:
+    	- **to identify to which category, the new observation belongs to**
+    	- **to find the best fit line (equation) that can be used to make predictions**
 - **Regression and Classification analysis** are a **predictive modeling techniques**
 - **Prediction algorithm for new observations**:
     - **Calculate the distance** from new observation (x) to all observations -> distance between new observations and old observations
