@@ -72,7 +72,7 @@ The Classified data dataset contains the following columns:
     - 4.1 Identify the variables
     - 4.2 Dealing with Missing values
       - 4.2.1 Dealing with Missing values in Columns
-	    - 4.2.2 Dealing with Missing values in Rows
+      - 4.2.2 Dealing with Missing values in Rows
     - 4.3 Dealing with the Non-numerical features
     - 4.4 Standardize (Scale) the values of variables
 5. Train and Test the K-Nearest Neighbors model
@@ -90,15 +90,15 @@ The Classified data dataset contains the following columns:
     - 5.10 Re-predictions from the model on Testing data
     - 5.11 Re-evaluate the model on Testing data
       - 5.11.1 Classification report
-      - - 5.11.2 Confusion matrix
+      - 5.11.2 Confusion matrix
     - 5.12 GridSearchCV
       - 5.12.1 Create the Grid of parameters
       - 5.12.2 Create the GridSearchCV model (Re-create the K-Nearest Neighbors (KNN) model)
       - 5.12.3 Train / fit the GridSearchCV model (Re-train / Re-fit the K-Nearest Neighbors (KNN) model)
       - 5.12.4 Predictions from the GridSearchCV model (Re-predictions from the K-Nearest Neighbors (KNN) model) on Testing data
       - 5.12.5 Evaluate the GridSearchCV model (Re-evaluate the K-Nearest Neighbors (KNN) model) on Testing data
-		      - 1. Classification report
-		      - 2. Confusion matrix
+      	- 1. Classification report
+      	- 2. Confusion matrix
 
 #### 4. Executive Summary
 TBA
