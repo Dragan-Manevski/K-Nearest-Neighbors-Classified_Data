@@ -1,6 +1,6 @@
-### --------------------------------------------------------------------------------------------------------
+### -------------------------------------------------------------------------------------------------------
 # K-Nearest Neighbors - Classified Data
-### --------------------------------------------------------------------------------------------------------
+### -------------------------------------------------------------------------------------------------------
 ### K-Nearest Neighbors:
 - an **algorithm**:
     - based on **Supervised Learning**
@@ -25,7 +25,7 @@
     - variables on a large scale - have a larger effect on the distance between the observations and on the K (KNN classifier)
     - variables on a small scale - have a smaller effect on the distance between the observations and on the K (KNN classifier)
 
-### --------------------------------------------------------------------------------------------------------
+### -------------------------------------------------------------------------------------------------------
 ### Project Objective: Predicting target class on classified data
 Create a model that allows to put in a few features of classified data and returns back a prediction (classification) of a new observation by identifying the position of its nearest neighboring observations. Information about the classified data is in the dataset 'Classified_Data', with hidden feature column names (anonymized) and known target classes.
 
@@ -42,7 +42,7 @@ The Classified data dataset contains the following columns:
 - **JHZC**
 - **TARGET CLASS**
 
-### --------------------------------------------------------------------------------------------------------
+### -------------------------------------------------------------------------------------------------------
 ### Table of Contents:
 1. File Descriptions
 2. Technologies Used
